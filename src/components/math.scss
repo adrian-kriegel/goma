@@ -1,0 +1,19 @@
+
+.eq-inline
+{
+  img 
+  {
+    height: var(--eq-size);
+    position: relative; 
+    bottom: -0.15em;
+  }
+}
+
+.eq-block
+{
+  display: block;
+  text-align: center;
+  img{ display: inline-block; }
+  width: 100%;
+  padding: 1em;
+}

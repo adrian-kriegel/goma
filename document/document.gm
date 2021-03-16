@@ -1,0 +1,39 @@
+
+<h1>
+  This is a title
+</h1>
+
+Some text below the title. Allows equations such as <E> E = mc^2 </E>. 
+Also block equations:
+
+<Equation>
+\begin{split}
+  &J(u;r,t_0,T) = \int_{t_0}^{T} g(x(t;x_0, u), t) dt  + h(x(T;x_0, u), T) \\
+  &g,h : \mathbb{R}^n\times\mathbb{R} \rightarrow \mathbb{R}
+\end{split}
+</Equation>
+
+Cool, right?
+
+
+Nullam ac fermentum ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan sapien at erat vehicula cursus. Quisque id sagittis mi. Aenean varius leo magna, eget volutpat mauris scelerisque eget. Sed rutrum odio a erat tincidunt, vitae posuere lacus sodales. Mauris lacus elit, congue feugiat arcu vitae, porta sagittis massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur neque risus, tincidunt et facilisis nec, sagittis nec ex. Proin gravida maximus augue sed porttitor. Proin in nisl in nunc scelerisque dictum a nec eros.
+
+Maecenas vitae orci eros. Pellentesque ultrices consequat risus, sit amet venenatis sem fringilla at. Proin quam orci, sagittis sed malesuada ut, gravida sed neque. Curabitur et rhoncus turpis. In elit erat, lacinia eu ipsum non, feugiat facilisis lacus. Sed id porttitor lectus. Nam suscipit enim vel sapien tincidunt, id gravida purus lacinia. Praesent eu enim varius, bibendum arcu nec, ullamcorper nunc. Pellentesque elit ex, malesuada nec hendrerit ac, gravida eget nisl. Sed ornare dolor a convallis tincidunt. Aenean vel urna ut arcu tristique fringilla. Donec finibus erat et eros bibendum eleifend.
+
+Nam dapibus mollis enim, eget luctus urna vulputate a. Donec venenatis vestibulum dolor vitae maximus. Nunc malesuada, orci vel finibus molestie, lectus nulla auctor dui, sit amet elementum eros eros ut metus. Mauris dictum urna id libero molestie pretium eget et ligula. Quisque sed tellus eu augue lacinia pellentesque in at purus. Curabitur ipsum mi, volutpat vitae lacus ac, molestie placerat leo. Aliquam vel risus mi. Suspendisse ultricies ornare nisl. Praesent tristique efficitur rutrum. Vestibulum tempor massa justo, sed suscipit odio tristique ac. Pellentesque fermentum sit amet arcu eget varius. Nulla vehicula, orci a suscipit consectetur, purus quam pretium diam, quis fermentum augue enim convallis elit.
+
+Nam faucibus neque magna, nec consequat augue ultricies sed. Nulla nec augue orci. Donec eget dapibus nibh. Cras non volutpat risus, aliquam ullamcorper odio. Etiam convallis quam massa, ut convallis ex luctus nec. Aliquam et interdum arcu. Vestibulum ligula risus, consectetur nec interdum sed, molestie sit amet odio. Morbi ac ligula id tellus posuere consectetur. Curabitur pulvinar risus vehicula lorem suscipit blandit. Cras magna velit, tincidunt vel tellus sit amet, feugiat faucibus nulla. Donec eleifend lacus nec purus malesuada efficitur. Curabitur quis risus lorem. 
+Nullam ac fermentum ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan sapien at erat vehicula cursus. Quisque id sagittis mi. Aenean varius leo magna, eget volutpat mauris scelerisque eget. Sed rutrum odio a erat tincidunt, vitae posuere lacus sodales. Mauris lacus elit, congue feugiat arcu vitae, porta sagittis massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur neque risus, tincidunt et facilisis nec, sagittis nec ex. Proin gravida maximus augue sed porttitor. Proin in nisl in nunc scelerisque dictum a nec eros.
+
+Maecenas vitae orci eros. Pellentesque ultrices consequat risus, sit amet venenatis sem fringilla at. Proin quam orci, sagittis sed malesuada ut, gravida sed neque. Curabitur et rhoncus turpis. In elit erat, lacinia eu ipsum non, feugiat facilisis lacus. Sed id porttitor lectus. Nam suscipit enim vel sapien tincidunt, id gravida purus lacinia. Praesent eu enim varius, bibendum arcu nec, ullamcorper nunc. Pellentesque elit ex, malesuada nec hendrerit ac, gravida eget nisl. Sed ornare dolor a convallis tincidunt. Aenean vel urna ut arcu tristique fringilla. Donec finibus erat et eros bibendum eleifend.
+
+Nam dapibus mollis enim, eget luctus urna vulputate a. Donec venenatis vestibulum dolor vitae maximus. Nunc malesuada, orci vel finibus molestie, lectus nulla auctor dui, sit amet elementum eros eros ut metus. Mauris dictum urna id libero molestie pretium eget et ligula. Quisque sed tellus eu augue lacinia pellentesque in at purus. Curabitur ipsum mi, volutpat vitae lacus ac, molestie placerat leo. Aliquam vel risus mi. Suspendisse ultricies ornare nisl. Praesent tristique efficitur rutrum. Vestibulum tempor massa justo, sed suscipit odio tristique ac. Pellentesque fermentum sit amet arcu eget varius. Nulla vehicula, orci a suscipit consectetur, purus quam pretium diam, quis fermentum augue enim convallis elit.
+
+Nam faucibus neque magna, nec consequat augue ultricies sed. Nulla nec augue orci. Donec eget dapibus nibh. Cras non volutpat risus, aliquam ullamcorper odio. Etiam convallis quam massa, ut convallis ex luctus nec. Aliquam et interdum arcu. Vestibulum ligula risus, consectetur nec interdum sed, molestie sit amet odio. Morbi ac ligula id tellus posuere consectetur. Curabitur pulvinar risus vehicula lorem suscipit blandit. Cras magna velit, tincidunt vel tellus sit amet, feugiat faucibus nulla. Donec eleifend lacus nec purus malesuada efficitur. Curabitur quis risus lorem. 
+Nullam ac fermentum ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan sapien at erat vehicula cursus. Quisque id sagittis mi. Aenean varius leo magna, eget volutpat mauris scelerisque eget. Sed rutrum odio a erat tincidunt, vitae posuere lacus sodales. Mauris lacus elit, congue feugiat arcu vitae, porta sagittis massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur neque risus, tincidunt et facilisis nec, sagittis nec ex. Proin gravida maximus augue sed porttitor. Proin in nisl in nunc scelerisque dictum a nec eros.
+
+Maecenas vitae orci eros. Pellentesque ultrices consequat risus, sit amet venenatis sem fringilla at. Proin quam orci, sagittis sed malesuada ut, gravida sed neque. Curabitur et rhoncus turpis. In elit erat, lacinia eu ipsum non, feugiat facilisis lacus. Sed id porttitor lectus. Nam suscipit enim vel sapien tincidunt, id gravida purus lacinia. Praesent eu enim varius, bibendum arcu nec, ullamcorper nunc. Pellentesque elit ex, malesuada nec hendrerit ac, gravida eget nisl. Sed ornare dolor a convallis tincidunt. Aenean vel urna ut arcu tristique fringilla. Donec finibus erat et eros bibendum eleifend.
+
+Nam dapibus mollis enim, eget luctus urna vulputate a. Donec venenatis vestibulum dolor vitae maximus. Nunc malesuada, orci vel finibus molestie, lectus nulla auctor dui, sit amet elementum eros eros ut metus. Mauris dictum urna id libero molestie pretium eget et ligula. Quisque sed tellus eu augue lacinia pellentesque in at purus. Curabitur ipsum mi, volutpat vitae lacus ac, molestie placerat leo. Aliquam vel risus mi. Suspendisse ultricies ornare nisl. Praesent tristique efficitur rutrum. Vestibulum tempor massa justo, sed suscipit odio tristique ac. Pellentesque fermentum sit amet arcu eget varius. Nulla vehicula, orci a suscipit consectetur, purus quam pretium diam, quis fermentum augue enim convallis elit.
+
+Nam faucibus neque magna, nec consequat augue ultricies sed. Nulla nec augue orci. Donec eget dapibus nibh. Cras non volutpat risus, aliquam ullamcorper odio. Etiam convallis quam massa, ut convallis ex luctus nec. Aliquam et interdum arcu. Vestibulum ligula risus, consectetur nec interdum sed, molestie sit amet odio. Morbi ac ligula id tellus posuere consectetur. Curabitur pulvinar risus vehicula lorem suscipit blandit. Cras magna velit, tincidunt vel tellus sit amet, feugiat faucibus nulla. Donec eleifend lacus nec purus malesuada efficitur. Curabitur quis risus lorem. 

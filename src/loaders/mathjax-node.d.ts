@@ -1,0 +1,2 @@
+
+declare module 'mathjax-node';

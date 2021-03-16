@@ -1,0 +1,22 @@
+{
+  "extends": 
+  [ 
+    "@unologin/eslint-config"
+  ],
+  "plugins":
+  [
+    "react"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "env": 
+  {
+    "browser": true,
+    "node": true
+  },
+  "globals":
+  {
+    "process": "readonly",
+    "JSX": "readonly",
+    "__dirname": "readonly"
+  }
+}

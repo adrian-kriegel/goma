@@ -1,0 +1,14 @@
+
+<goma begin />
+
+Some text below the title. Allows equations such as <E> E = mc^2 </E>. 
+Also block equations:
+
+<Equation>
+\begin{split}
+  &J(u;r,t_0,T) = \int_{t_0}^{T} g(x(t;x_0, u), t) dt  + h(x(T;x_0, u), T) \\
+  &g,h : \mathbb{R}^n\times\mathbb{R} \rightarrow \mathbb{R}
+\end{split}
+</Equation>
+
+Cool, right?

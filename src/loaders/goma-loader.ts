@@ -111,6 +111,29 @@ function replaceAllEquations(
 }
 
 /**
+ * Splits file into imports and document
+ * 
+ * @param file file source
+ * @returns {string[]} [imports, document]
+ */
+function splitFile(file : string) : string[]
+{
+  const beginSequence = '<goma begin />';
+
+  const index = file.indexOf(beginSequence);
+
+  if (index === -1)
+  {
+    throw new Error(`File is missing ${beginSequence}.`);
+  }
+
+  return [
+    file.substr(0, index),
+    file.substr(index + beginSequence.length, file.length),
+  ];
+}
+
+/**
  * @param file .gm file contents
  * @returns loaded goma file as js
  */
@@ -122,12 +145,15 @@ export default function load(file : string) : void
   // @ts-ignore
   const callback = this.async();
 
-  replaceAllEquations(file, 
+  const [imports, doc] = splitFile(file);
+
+  replaceAllEquations(doc, 
     (replaced) => 
     {
       callback(
         null,
-        generateImports(autoinclude as unknown as AutoIncludeArray) +
+        imports + '\n' +
+          generateImports(autoinclude as unknown as AutoIncludeArray) +
           '\n' + 
           'export default function render(props)\n{\n' + 
           'return (<>' + replaced + '</>);' +

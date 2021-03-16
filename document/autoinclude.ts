@@ -10,4 +10,9 @@ export default
     import: ['E', 'Equation'],
     from: path.resolve(__dirname, '../src/components/math'),
   },
+  // this is required for document structure
+  {
+    import: ['Section', 'Chapter'],
+    from: path.resolve(__dirname, '../src/components/structure'),
+  },
 ];

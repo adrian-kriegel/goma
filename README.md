@@ -122,5 +122,5 @@ The Goma loader is a webpack loader assiociated with the .gm file extension. It 
 
 ### LaTeX
 
-As you can see in the examples, you can use LaTeX-equations using the ```<E>``` (for inline-equations) and the ```<Equation>``` (for block-equations). These tags are replaced with SVGs by the Goma loader using [mathjax-node](https://www.npmjs.com/package/mathjax-node). This means that the equations are not rendered in the browser (which is probably faster). Using literal LaTeX code in Javascript can be tricky due to the backslashes and other special characters that need to be replaced.
+As you can see in the examples, you can use LaTeX-equations using the ```<E>``` (for inline-equations) and the ```<Equation>``` (for block-equations). These tags are replaced with SVGs by the Goma loader using [mathjax-node](https://www.npmjs.com/package/mathjax-node). This means that the equations are not rendered in the browser (which is probably faster). Using literal LaTeX code in Javascript can be tricky due to the backslashes and other special characters that need to be escaped.
 

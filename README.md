@@ -2,7 +2,26 @@
 
 Goma is an experimental word processor based on web technologies like [React](https://reactjs.org/), [webpack](https://webpack.js.org/), and [Babel](https://babeljs.io/). 
 
+## Try it out
 
+1. Clone the repository.
+
+```sh
+  $ git clone https://github.com/adrian-kriegel/goma
+```
+2. [Install Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) if you haven't already.
+2. Install all dependencies.
+```sh
+  $ cd goma
+  $ npm i
+```
+3. Start the dev server.
+```sh
+  $ npm run dev
+```
+4. Open [http://localhost:8080](http://localhost:8080) in a browser.
+
+5. Edit the .gm files in **document/** to edit the document and the style.scss file to edit the styling. The document will re-render automatically.
 
 ## Motivation
 
@@ -18,48 +37,50 @@ LaTeX syntax is weird. Which is no surprise, considering it's almost 40 years ol
 
 ### Customization
 
-Again, projecting from experience again but my LaTeX workflow always looks like this:
+Again, projecting from experience but my LaTeX workflow always looks like this:
 
-1. Copy the template from my University
+1. Copy the template from my University.
 2. Add some content below the 300 lines of template code.
-3. I into a problem trying to do something trivial.
+3. I run into a problem trying to do something trivial.
 4. [search engine] redirects me to [stackexchange site]. 
-5. I copy-paste a bunch of ```\usepackage``` commands until it's working
+5. I copy-paste a bunch of ```\usepackage``` commands until it's working.
 6. Template now has 310 lines.
+7. I won't ever touch these lines or perform any cleanup as not to disrupt something.
 
-Try to do something no one has dared to ask before with some wise old TeX-Guru sharing their ancient wisdom? You're screwed. 
+Try to do something no one has dared to ask before with some wise old TeX-guru sharing their ancient wisdom? You're screwed. 
 
 At that point to would also have to admit to all Microsoft-Word users that LaTeX isn't so perfect after all, which probably hurts the most. 
 
 ## Solution
 
-Luckily, browsers were designed specifically rendering stylized documents. The documentation is really good and there are thousands of guides when it comes to CSS or Javascript. CSS and Javascript syntax is simple and consistent. Using [React](https://reactjs.org/), you can create your own Components and you can change the style using CSS or even [SASS](https://sass-lang.com/) if you like. Here are some ideas of what you could do using Goma: 
+Luckily, browsers are designed specifically for rendering stylized documents. The documentation is really good and there are thousands of guides when it comes to CSS or Javascript. CSS and Javascript syntax is simple and consistent. Using [React](https://reactjs.org/), you can create your own components and you can change the style using CSS or even [SASS](https://sass-lang.com/) if you like. Here are some ideas of what else you could do using Goma: 
 
 - Keep using LaTeX for equations (implemented)
-- Render elements using either the browser
+- Render elements using the browser
 - Render elements using [Node.js](https://nodejs.org)
 - Make charts using [Chart.js](https://www.chartjs.org/) instead of using images
 - Make charts that render from Matlab or Python 
 - Use existing components and packages from [npm](https://www.npmjs)
 - Include live data from APIs
 - Render code samples from the actual source code
+- Create your own packages to re-use code
 
 
 ## File/Folder structure
 
-As this is still all experimental, all source code is within this package.
+As this is still experimental, all source code is within this package to keep it simple.
 
 - **src/loaders/** contains the webpack loader used to transform .gm documents into React components (the actual core, will be moved to a stand-alone package at some point)
-- **src/components/** contains some React components that are useful in Documents
+- **src/components/** contains some React components that are useful for writing documents
 - **public/** contains the html template the document is rendered in
 - **document/** contains your document files and setup
 - **document/root.jsx** contains your entry point
-- **document/document.gm** goma file for your document
+- **document/document.gm** Goma file for your document
 - **document/chapters/** contains other Goma files that are imported into your document 
 - **document/autoinclude.ts** tells the Goma loader what to import into all .gm files after they are turned into react components
 - **document/paged.scss** stylesheet for [Paged.js](https://www.pagedjs.org/) used for paginating your document
 
-The rest if the files are the basic Babel/webpack/TypeScript setup. 
+The rest of the files are just basic Babel/webpack/TypeScript setup. 
 
 ## Examples
 

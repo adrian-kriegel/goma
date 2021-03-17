@@ -4,6 +4,8 @@ Goma is an experimental word processor based on web technologies like [React](ht
 
 ## Try it out
 
+Check out [this code sandbox](https://codesandbox.io/s/angry-flower-ryc1y) if you don't want to try it out on your machine.
+
 1. Clone the repository.
 
 ```sh

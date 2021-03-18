@@ -1,8 +1,14 @@
 
+@media screen 
+{
+  .chapter 
+  {
+    page-break-before: always;
+  }
+}
+
 .chapter
 {
-  page-break-before: always;
-
   title: 
   {
     font-size: 24em;

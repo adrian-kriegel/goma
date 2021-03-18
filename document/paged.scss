@@ -28,7 +28,9 @@
         box-shadow: 0 0 0 1px var(--color-pageSheet);
         margin: 0px;
         margin-top: 5mm;
-        margin-left: calc(var(--pagedjs-width) / 2);
+        margin-left: calc(-1 * var(--pagedjs-width) / 2);
+        position: relative;
+        left: 50%;
     }
 
     .pagedjs_page:last-of-type {
@@ -41,7 +43,7 @@
 
     .pagedjs_left_page{
         z-index: 20;
-        width: calc(var(--pagedjs-bleed-left) + var(--pagedjs-pagebox-width))!important;
+        //width: calc(var(--pagedjs-bleed-left) + var(--pagedjs-pagebox-width))!important;
     }
 
     .pagedjs_left_page .pagedjs_bleed-right .pagedjs_marks-crop {

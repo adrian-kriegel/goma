@@ -5,6 +5,8 @@ import { render } from 'react-dom';
 
 import Doc from './document.gm';
 
+import 'typeface-libre-baskerville';
+
 import './style.scss';
 
 import './paged.scss';

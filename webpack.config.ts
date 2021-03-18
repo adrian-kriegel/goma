@@ -5,7 +5,7 @@ import autoinclude from './document/autoinclude';
 
 const config = 
 {
-  entry: './document/root.jsx',
+  entry: './document/root',
   output:
   {
     path: path.resolve(__dirname, 'dist'),

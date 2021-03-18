@@ -5,6 +5,11 @@
   {
     page-break-before: always;
   }
+
+  .bibliography
+  {
+    page-break-before: always;
+  }
 }
 
 .chapter
@@ -20,5 +25,24 @@
   title: 
   {
     font-size: 20em;
+  }
+}
+
+.bibliography
+{
+  .bib-entry
+  {
+    display: block;
+    margin-bottom: 30px;
+
+    td 
+    {
+      vertical-align: top;
+    }
+
+    .bib-number
+    {
+      width: 30px;
+    }
   }
 }

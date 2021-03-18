@@ -12,3 +12,5 @@ Also block equations:
 </Equation>
 
 Cool, right?
+
+Also citations kinda work {cite('rakovic2018handbook')} and are always in order {cite('Bock1984', 'rakovic2018handbook')} even when citing the first source again {cite('rakovic2018handbook')}.

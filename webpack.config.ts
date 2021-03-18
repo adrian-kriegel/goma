@@ -32,6 +32,16 @@ const config =
         ],
       },
       {
+        test: /\.bib$/,
+        exclude: /node_modules/,
+        include: /document/,
+        use: 
+        [
+          'json-loader',
+          path.resolve(__dirname, './src/loaders/bibtex-loader.ts'),
+        ],
+      },
+      {
         test: /\.(ts|tsx|js|jsx)$/,
         exclude: /node_modules/,
         use: 

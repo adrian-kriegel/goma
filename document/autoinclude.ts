@@ -15,4 +15,9 @@ export default
     import: ['Section', 'Chapter'],
     from: path.resolve(__dirname, '../src/components/structure'),
   },
+  // this is required for citations
+  {
+    import: ['cite', 'Citation', 'Bibliography'],
+    from: path.resolve(__dirname, '../src/components/citation'),
+  },
 ];

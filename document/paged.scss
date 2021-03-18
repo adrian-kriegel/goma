@@ -20,24 +20,15 @@
     }
 
     .pagedjs_pages {
-        display: flex;
-        width: calc(var(--pagedjs-width) * 2);
-        flex: 0;
-        flex-wrap: wrap;
-        margin: 0 auto;
+        margin: 0px;
     }
 
     .pagedjs_page {
         background-color: var(--color-paper);
         box-shadow: 0 0 0 1px var(--color-pageSheet);
-        margin: 0;
-        flex-shrink: 0;
-        flex-grow: 0;
-        margin-top: 10mm;
-    }
-
-    .pagedjs_first_page {
-        margin-left: var(--pagedjs-width);
+        margin: 0px;
+        margin-top: 5mm;
+        margin-left: calc(var(--pagedjs-width) / 2);
     }
 
     .pagedjs_page:last-of-type {
@@ -64,7 +55,6 @@
     .pagedjs_right_page{
         z-index: 10;
         position: relative;
-        left: calc(var(--pagedjs-bleed-left)*-1);
     }
 
     /* show the margin-box */
